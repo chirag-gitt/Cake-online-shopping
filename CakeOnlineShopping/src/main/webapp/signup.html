@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SignUp.CakeCorner</title>
+<link rel="stylesheet" href="login.css">
+</head>
+<body>
+ <h1>CakeCorner</h1> 
+ <img src="cakes/logo.png" class="logo">
+ <div class="container">
+ <form action="signup.jsp" method="post" class="form">
+  <h2>Sign In</h2>
+    <input type="text"  class="box" name="name" placeholder="enter name" required>
+    
+  
+    <input type="email"  class="box" placeholder="Mail" name="mail" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" title="Please enter a valid email address"required>
+     <input type="tel" id="phone" name="phone" pattern="[0-9]{10}"  placeholder="enter the mobile number" class="box" title="Please enter a 10-digit phone number" required>
+    
+    <input type="password"  class="box" placeholder="password" name="password" required>
+    <input type="submit" class="box" value="signup" id="submit">
+  
+ </form>
+ 
+  <div class="image"><img src="cakes/images.png"></div>
+  </div>
+</body>
+</html>

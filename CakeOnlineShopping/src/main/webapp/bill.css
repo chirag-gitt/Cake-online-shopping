@@ -1,0 +1,101 @@
+@charset "UTF-8";
+@font-face {
+    font-family: myFont;
+    src: url(cakes/Cedarville-Cursive.ttf);
+}
+
+.logo {
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 48%;
+    height: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+    font-family:'Roboto',sans-serif;
+    padding-left:10px;
+}
+h1{
+    font-family: myFont;
+    color: purple;
+    
+}
+#bill {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#bill td, #bill th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#bill tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+#bill tr:hover {
+  background-color: #ddd;
+}
+
+#bill th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: purple;
+  color: white;
+}
+.invoice{
+	font-family:courier;
+}
+.order-details {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.order-detail {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.heading {
+  font-weight: bold;
+  color: purple;
+  font-family: Arial, sans-serif;
+}
+
+.detail-value {
+  color: #333;
+}
+
+
+.pink-button button {
+  background-color: purple;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+
+hr {
+  border: none; 
+  border-top: 2px solid black; 
+}
+
+

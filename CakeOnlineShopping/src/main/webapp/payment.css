@@ -1,0 +1,103 @@
+
+@font-face {
+    font-family: myFont;
+    src: url(cakes/Cedarville-Cursive.ttf);
+}
+
+
+ h3, h5 {
+    font-family: myFont, sans-serif;
+}
+h1{
+    font-family: myFont;
+    color: purple;
+    
+}
+body {
+    background-color: #f2f2f2; 
+}
+
+a:hover {
+    color: #6a5acd; 
+}
+
+
+.invoice{
+	font-family:courier;
+}
+
+.logo {
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+
+#payment {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#payment td, #payment th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#payment tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#payment tr:hover {
+    background-color: #ddd;
+}
+
+#payment th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: purple;
+    color: white;
+}
+
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+form h3, form h5 {
+    color: purple; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+form input[type="text"], form select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ddd; 
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: purple; 
+    color: white;
+    cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+    background-color: #6a5acd; 
+}

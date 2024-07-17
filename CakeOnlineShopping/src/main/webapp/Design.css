@@ -1,0 +1,164 @@
+
+@font-face {
+    font-family: myFont;
+    src: url(cakes/Cedarville-Cursive.ttf);
+}
+@font-face {
+  font-family: myFont2;
+  src: url(cakes/EveryDreams-L3Mpy.ttf);
+}
+h1{
+    font-family: myFont;
+    color: purple;
+    
+}
+
+footer{
+  padding:3px;
+  background-color: black;
+  color:white;
+  font-size: 14;
+}
+
+.loginn{
+  position: absolute;
+  right: 280px;
+
+}
+.newuser{
+  position: absolute;
+  right: 300px;
+  bottom: 320px;
+  font-size: 18px;
+}
+.button1{
+  height: 50px;
+  width: 450px;
+  background-color:#b28f69 ;
+  border-radius: 8px;
+  border-width: 1mm;
+  font-size: 22px;
+}
+.logo
+{
+ height: 100px;
+ width: 150px;
+ position:absolute;
+ top: 0px;
+ right: 10px;
+
+}
+
+.box {
+    border: none;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.8);
+    width: 700px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.button {
+    margin-left: auto;
+    height: 250px;
+    width: 250px;
+    background-color: yellowgreen;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box img {
+    order: -1;
+    height: 250px;
+    width: 250px;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color:purple;
+  }
+  body.showcart.web
+  {
+    transform: translateX(-250px);
+  }
+  .web
+  {
+    transition:transform 0.5s
+  }
+  .button{
+    text-align: center;
+    background-color: yellowgreen;
+   height: 40px; 
+   width: 90px;
+  }
+
+.listcart .quantity span{
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: #eee;
+  color:#555;
+border-radius: 50%;
+cursor: pointer;
+}
+.listcart .quantity span:nth-child(2)
+{
+  background-color: transparent;
+  color:#eee
+}
+.icon-cart
+{
+  position: relative;
+}
+#last-visited {
+    
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+
+svg{
+  width: 30px;
+}
+.icon-cart span{
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  color:#fff;
+  border-radius: 50%;
+  position: absolute;
+
+}
